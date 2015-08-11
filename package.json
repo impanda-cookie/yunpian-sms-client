@@ -14,7 +14,7 @@
     "url": "git+https://github.com/CowPanda/yunpian-sms.git"
   },
   "keywords": [
-    "yunpian-sms"
+    "yunpian sms-client"
   ],
   "author": "cowpanda",
   "license": "MIT",
@@ -23,7 +23,6 @@
   },
   "homepage": "https://github.com/CowPanda/yunpian-sms-client#readme",
   "dependencies": {
-    "restify": "^3.0.3",
-    "verror": "^1.6.0"
+    "restify": "^3.0.3"
   }
 }
