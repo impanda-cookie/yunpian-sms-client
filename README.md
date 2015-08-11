@@ -1,6 +1,6 @@
 # yunpian-sms-client
 
-yunpian-sms-client 用于对接云片网提供的短信发送接口的nodejs简单实现，相关的接口和示例已测试通过，若有问题请在issue中提出或pull request。
+[yunpian-sms-client](https://github.com/CowPanda/yunpian-sms-client) 用于对接云片网提供的短信发送接口的nodejs简单实现，相关的接口和示例已测试通过，若有问题请在issue中提出或pull request。
 
 ---
 # 安装
