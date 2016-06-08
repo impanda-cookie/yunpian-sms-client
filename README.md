@@ -1,4 +1,5 @@
 ### yunpian-sms-client
+[![npm](https://img.shields.io/npm/v/yunpian-sms-client.svg?style=plastic)](https://npmjs.org/package/yunpian-sms-client) [![npm](https://img.shields.io/npm/dm/yunpian-sms-client.svg?style=plastic)](https://npmjs.org/package/yunpian-sms-client) [![npm](https://img.shields.io/npm/dt/yunpian-sms-client.svg?style=plastic)](https://npmjs.org/package/yunpian-sms-client)
 
 [yunpian-sms-client](https://github.com/CowPanda/yunpian-sms-client) 用于对接云片网提供的短信发送接口的nodejs简单实现，相关的接口和示例已测试通过，若有问题请在issue中提出或pull request。
 
@@ -19,7 +20,7 @@
 
 ### 安装
 
-    npm install yunpian-sms-client
+    npm install yunpian-sms-client --save
 
 ### 初始化一个SMS Provider
 
