@@ -45,8 +45,8 @@ provider.getSmsSendRecord({start_time: '2016-01-02 00:00:00', end_time: '2016-06
 
 //====================================
 
-//批量发送验证码
-provider.sendBatchSms({mobile:'13682576857,13798568436,13682575236',text:text}).then(function(result){
+//批量发送
+provider.sendBatchSms({mobile:'your mobile,your girl mobile...',text:text}).then(function(result){
     if(result){
         console.log(result);
     }
