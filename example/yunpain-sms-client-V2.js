@@ -2,7 +2,7 @@
  * Created by cowpanda on 6/8/16.
  */
 'use strict';
-var smsProvider = require('../lib').v2;
+var smsProvider = require('yunpian-sms-client').v2;
 var apiKey = 'your apiKey';
 var provider = smsProvider.initWithKey(apiKey);
 

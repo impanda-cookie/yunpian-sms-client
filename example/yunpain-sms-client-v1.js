@@ -1,7 +1,7 @@
 /**
  * Created by cowpanda on 8/11/15.
  */
-var yunpainSMSClient = require('../lib').v1;
+var yunpainSMSClient = require('yunpian-sms-client').v1;
 /**
  * 普通短信发送示例
  */
@@ -34,6 +34,28 @@ var t = new yunpainSMSClient({
 });
 
 t.sendSMSByTemplate(function (err, result) {
+    if (err) {
+        console.log(err);
+        return;
+    }
+
+    console.log(result)
+});
+
+//=================================================
+var yunpainSMSClient = require('yunpian-sms-client');
+var c = new yunpainSMSClient({
+    apiKey: 'your appkey',
+    url:'http://yunpian.com',
+    sendContent: '【your sigure】您的验证码是23405。如非本人操作，请忽略本短信',
+    mobile: ['your number']  //注意：请自行验证手机号码是否正确
+});
+var query = '/v1/xxxx.json?apiKey=your apikey&text=your content....';
+
+/**
+ * 直接拼接query发送短信
+ */
+c.send(query,function (err, result) {
     if (err) {
         console.log(err);
         return;
