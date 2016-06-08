@@ -43,7 +43,7 @@ t.sendSMSByTemplate(function (err, result) {
 });
 
 //=================================================
-var yunpainSMSClient = require('yunpian-sms-client');
+var yunpainSMSClient = require('yunpian-sms-client').v1;
 var c = new yunpainSMSClient({
     apiKey: 'your appkey',
     url:'http://yunpian.com',
