@@ -23,6 +23,8 @@
   },
   "homepage": "https://github.com/CowPanda/yunpian-sms-client#readme",
   "dependencies": {
-    "restify": "^3.0.3"
+    "bluebird": "^3.4.0",
+    "restify": "^3.0.3",
+    "underscore": "^1.8.3"
   }
 }
