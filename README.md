@@ -192,7 +192,7 @@ provider.getCustomReqSmsAPI(data, path).then(function (res) {
             /*mobile:13xxxxxx*///填写时只查该手机号的回复，不填时查所有的回复 ,可选
         };
 
-        return provider.getCustomReqSmsAPI(data, path);
+        return yield provider.getCustomReqSmsAPI(data, path);
     });
 ```
 
